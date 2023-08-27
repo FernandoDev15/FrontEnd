@@ -1,0 +1,53 @@
+:root {
+    --COLOR_FONT_MENU: #aeaee2;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(#e3dbdb, #746c6c, #575656, black);
+    background-attachment: fixed;
+}
+
+header {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(#e3dbdb, #746c6c, #575656, black);
+    background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: 0.3em 0.3em 3px #2e2b2b;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--COLOR_FONT_MENU);
+    text-shadow: 0.4px 0.7px 1px #29291f;
+}
+
+header .hamburguer {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.hamburguer span {
+    height: 3px;
+    width: 100%;
+    background: var(--COLOR_FONT_MENU);
+    box-shadow: 0.4px 0.7px 1px #29291f;
+}
+
